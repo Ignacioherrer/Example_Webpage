@@ -3,6 +3,7 @@ pipeline {
 
     environment {
         VIRTUALENV = 'venv'
+        DOCKER_CRED = credentials('Ignacio-Dockerhub')
     }
     
     stages {
